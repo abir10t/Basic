@@ -1,0 +1,15 @@
+### `Apt` Package Manager
+- #### install : 
+    
+    
+ 1. sudo apt search software name
+ 2. sudo apt install vlc
+ 
+ - #### Remove
+ 
+ 1. sudo apt remove vlc
+ 2. sudo apt autoremove
+ 
+ 
+      
+      
