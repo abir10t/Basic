@@ -5,13 +5,12 @@
  
       String? lastName(String fullName)
        {
-  
          final components = fullName.split(' ');
-         return components.length > 1 ? components.last : null;
-  
-      }
+         return components.length > 1 ? components.last : null
+       }
 
-      void main() {
-        String last = lastName('Bangladesh world')!; -> we give null value in a non-nullable variable using `! (explanation)` operator  
-        print(last);
+      void main() 
+      {
+         String last = lastName('Bangladesh world')!; -> we give null value in a non-nullable variable using `! (explanation)` operator  
+         print(last);
        }
