@@ -1,6 +1,7 @@
 ### Dart
 
 #### Null Safety :
+- https://www.youtube.com/watch?v=aZtjcbsdwTo
 - Sometimes we know that something can't be null, but we can't prove it to the compiler. Here Assertion Operator can help  
  
       String? lastName(String fullName)
