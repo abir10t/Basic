@@ -49,6 +49,60 @@
          return value.abs();
        }
 
+- Flow Analysis / definite assignment
+
+                 int sign(int x)
+              {
+                int result;
+                print(result); ->  we can't print here because result variable don't find any value till now.
+                
+                if( x >= 0 )
+                  result = 1;
+                  
+                else
+                  result = -1;
+
+                return result;
+
+              }
+              
+            
+- Using non-nullable variables with class
+    1. instance variable in classes must be initialized if they are not nullable
+    2. if the initialized variable don't initialized with the default value, we must set it with the constructor
+    
+
+                   class BaseUrl
+               {
+               
+                 BaseUrl(this.hostName);
+                 String hostName;
+                 
+               }
+               
+ -Non-nullable named arguments
+ 
+    
+                   class BaseUrl
+               {
+               
+                 BaseUrl({required this.hostName});
+                 final String hostName;
+                 
+               }
+               
+               void printAbs({required int value})
+               {
+               
+                  print(value.abs());
+               
+               }
+               
+      so if we use named parameter you ccan accomplish this with the required argument or a default value. Positional argument is also same.  
+ 
+   
+
+          
       
              
           
