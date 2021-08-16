@@ -8,7 +8,7 @@
  - #### Remove
  
  1. sudo apt remove vlc
- 2. sudo apt autoremove
+ 2. sudo apt autoremove -> remove th file parmanently from pc
  
  
       
