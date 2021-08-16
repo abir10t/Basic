@@ -99,6 +99,28 @@
                }
                
       so if we use named parameter you ccan accomplish this with the required argument or a default value. Positional argument is also same.  
+      
+      
+      
+ #### Late variables
+  -Declaring a non-nullable variable that’s initialized after its declaration.
+  - Lazily initializing a variable.
+
+        late String description;
+        void main() {
+         description = 'Feijoada!';
+         print(description);
+          }
+  
+  
+  - if the temperature variable is never used, then the expensive _readThermometer() function is never called
+  
+         late String temperature = _readThermometer(); 
+ 
+  
+      
+      
+
  
    
 
