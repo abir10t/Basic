@@ -116,6 +116,57 @@
   - if the temperature variable is never used, then the expensive _readThermometer() function is never called
   
          late String temperature = _readThermometer(); 
+         
+         
+#### Functions
+
+- callable classes :
+
+       class WannabeFunction 
+       {
+        String call(String a, String b, String c) => '$a $b $c!';
+       }
+
+      var wf = WannabeFunction();
+      var out = wf('Hi', 'there,', 'gang');youdart
+
+      void main() => print(out);
+      
+- forEach()
+
+
+         void main() 
+         { 
+               var usrMap = {"name": "Tom", 'Email': 'tom@xyz.com'}; 
+               usrMap.forEach((k,v) => print('${k}: ${v}')); 
+          } 
+  
+
+ - Function as first class object
+    
+          void printElement(int element) 
+          {
+                print(element);
+          }
+
+         var list = [1, 2, 3];
+         list.forEach(printElement);
+   
+   
+   - Anonymous functions
+   
+     (parameter_list)
+     {
+          statement(s)
+     
+     }
+
+
+
+  
+    
+
+
  
   
       
