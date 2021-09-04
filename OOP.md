@@ -9,3 +9,5 @@
 - Abstraction :  abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user
 
 - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another.
+
+- A constructor is a special type of member function of a class which initializes objects of a class. In C++, Constructor is automatically called when object(instance of class) create. It is special member function of the class because it does not have any return type.
