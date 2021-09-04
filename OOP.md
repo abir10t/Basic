@@ -6,6 +6,6 @@
 
 - Method Overriding : If child class has the same method as declared in the parent class, it is known as method overriding.The method must have the same name as in the parent class. The method must have the same parameter as in the parent class.There must be an IS-A relationship (inheritance).
 
-- Abstraction : abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user
+- Abstraction :  abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user
 
 - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another.
