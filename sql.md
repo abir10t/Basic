@@ -6,3 +6,9 @@
 - SELECT * FROM Customers WHERE City IN ('Paris','London');
 - SELECT * FROM Customers WHERE Country='Germany' OR Country='Spain';
 
+
+### ORDER BY
+
+- SELECT * FROM Customers ORDER BY Country; -> by default accending
+- 
+
