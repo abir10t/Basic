@@ -4,4 +4,5 @@
 - SELECT * FROM Products WHERE Price BETWEEN 50 AND 60;
 - SELECT * FROM Customers WHERE City LIKE 's%';
 - SELECT * FROM Customers WHERE City IN ('Paris','London');
+- SELECT * FROM Customers WHERE Country='Germany' OR Country='Spain';
 
